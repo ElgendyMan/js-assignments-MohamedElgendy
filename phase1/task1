@@ -1,0 +1,5 @@
+// Mohamed Ahmed Elgendy
+// T1: String Length
+
+let sentence = prompt("Enter a sentence: ");
+console.log(`The length of the sentence is: ${sentence.length}`);
