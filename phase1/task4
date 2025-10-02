@@ -1,0 +1,5 @@
+// Mohamed Ahmed Elgendy
+// T4: Automatic Type Conversion
+
+console.log('1' + 1); // '11' - string - string concatenation
+console.log('5' * 5); // 25 - number - multiplication - string converted to number
