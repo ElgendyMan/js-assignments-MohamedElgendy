@@ -1,0 +1,10 @@
+// Mohamed Ahmed Elgendy
+// T5: Looping a Triangle
+
+for (let line = "#"; line.length < 8; line += "#") {
+    console.log(line);
+}
+
+for (let i = 0; i <= 7; i++) {
+    console.log("#".repeat(i));
+}
