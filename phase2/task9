@@ -1,0 +1,6 @@
+// Mohamed Ahmed Elgendy
+// T9: Conditional Execution
+
+let age = prompt("Enter your age");
+
+age<13 ? console.log("Child") : age<=19 ? console.log("Teenager") : console.log("Adult");
