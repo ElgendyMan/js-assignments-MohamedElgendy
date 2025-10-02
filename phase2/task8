@@ -1,0 +1,13 @@
+// Mohamed Ahmed Elgendy
+// T8: Chessboard - Dynamic
+// كدة اوضح شوية
+
+let size = 20;
+
+for (let i = 0; i < size; i++) {
+  if (i % 2 === 0) {
+    console.log("##  ".repeat(size / 2)); // كدة اوضح شوية
+  } else {
+    console.log("  ##".repeat(size / 2)); // كدة اوضح شوية
+  }
+}
