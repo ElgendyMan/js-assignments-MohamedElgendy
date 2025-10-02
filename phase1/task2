@@ -1,0 +1,7 @@
+// Mohamed Ahmed Elgendy
+// T2: Number Operations
+
+console.log(`${5+5}`);
+console.log(`${6-5}`);
+console.log(`${6*5}`);
+console.log(`${10/5}`);
