@@ -1,0 +1,16 @@
+// Mohamed Ahmed Elgendy
+// T10: Custom Pattern
+
+let shape = prompt("Choose and enter s for square, t for triangle");
+shape = shape.toLowerCase().trim();
+let numOfRows = prompt("Enter number of rows");
+
+if (shape == 's') {
+    for (let i = 1; i <= numOfRows; i++) {
+        console.log('* '.repeat(numOfRows));
+    }
+} else if (shape == 't') {
+    for (let i = 1; i <= numOfRows; i++) {
+        console.log('* '.repeat(i));
+    }
+}
